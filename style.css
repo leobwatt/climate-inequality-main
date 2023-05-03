@@ -78,10 +78,9 @@ nav li a:hover {
 }
 
 #map {
-    background-image: url('C:\Users\leobw\Code\climate-inequality-website\country(ci-project).png');
-    width: 100px; /* image width */
-    height: 100px; /* image height */
-    display: inline-block; /* so that it behaves like the img element */
+    max-width: 750px;
+    margin: auto;
+    display: block;
 }
 
 /*graphs*/
