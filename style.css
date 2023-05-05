@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 5px;
+    margin: 0px;
     padding: 0%;
 }
 
@@ -12,6 +12,7 @@ nav {
     border-style: solid;
     border-color: #508b50;
     border-width: 2px;
+    margin-bottom: 40px;
 }
 
 nav ul {
@@ -57,10 +58,11 @@ nav li a:hover {
 /*country and income*/
 
 #title {
+    margin: auto;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    max-width: 90%;
     font-size: 65px;
+    color: #073814;
 }
 
 #title-line {
@@ -98,12 +100,25 @@ nav li a:hover {
     border-width: 1px;
 }
 
-.graph-text {
+.graph-text-3 {
     font-size: 20px;
     margin-top: 80px;
     max-width: 730px;
     max-height: 410px;
-    padding: 100px 25px;
+    padding: 137px 25px;
+    float: left;
+    background-color: mintcream;
+    border-style: solid;
+    border-color: #dff0e7;
+    border-width: 2px;
+}
+
+.graph-text-4 {
+    font-size: 20px;
+    margin-top: 80px;
+    max-width: 730px;
+    max-height: 410px;
+    padding: 123px 25px;
     float: left;
     background-color: mintcream;
     border-style: solid;
@@ -161,13 +176,55 @@ nav li a:hover {
     margin: 520px 500px 0px 500px;
 }
 
-/*index*/
+.sources {
+    margin: 0px 50px;
+}
+
+.s-title {
+    font-size: 40px;
+    color: rgb(31, 57, 57);
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.sources ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.sources ul li {
+    padding: 2px 15px;
+}
+
+.sources ul li a{
+    color: #146626;
+    font-weight: bold;
+}
+
+/*intro/contents*/
 
 #intro-main p {
-    margin: 50px 50px 0px 50px;
+    margin: 50px 100px 0px 150px;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 40px;
+    text-align: left;
+}
+
+#purpose {
+    margin: 60px 260px 0px 260px;
     text-align: center;
+    padding: 20px 40px;
+    background-color: mintcream;
+    border-style: solid;
+    border-color: #c1d5be;
+    border-width: 2px;
+    box-shadow: 3px 3px 8px#b1dbb8;
+}
+
+#purpose p {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #073814;
 }
 
 /*intro to data*/
@@ -183,6 +240,8 @@ nav li a:hover {
     font-size: 60px;
     color: #146626;
     margin: 20px;
+    margin-bottom: 40px;
+    padding-top: 20px;
 }
 
 #data-text {
@@ -195,6 +254,7 @@ nav li a:hover {
     border-color: #c1d5be;
     border-width: 2px;
     margin-left: 30px;
+    line-height: 30px;
 }
 
 #data-button {
@@ -349,11 +409,36 @@ nav li a:hover {
     height: 470px;
     margin-top: 150px;
     margin-left: 30px;
-  }
+}
+
+/*vancouver*/
+.vancouver {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+#v-title {
+    font-size: 45px;
+    color: #135a22;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.blank-line {
+    color: white;
+    border-style: solid;
+}
+
+#v-intro {
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+}
 
 /*learn more*/
 .learn-more {
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 80px;
 }
 
